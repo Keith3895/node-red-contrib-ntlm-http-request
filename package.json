@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-ntlmrequest",
-  "version": "0.0.0",
+  "name": "node-red-contrib-ntlm-http-request",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "directories": {
