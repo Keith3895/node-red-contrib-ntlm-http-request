@@ -1,0 +1,36 @@
+{
+  "name": "node-red-contrib-ntlmrequest",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "node-red": {
+    "nodes": {
+      "request": "./lib/request.js"
+    }
+  },
+  "keywords": [
+    "modeler",
+    "node-red",
+    "ntlm",
+    "Windows authentication",
+    "node-ntlm"
+  ],
+  "author": "Keith Franklin",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^4.0.0",
+    "async": "^2.6.1",
+    "cookie": "^0.3.1",
+    "hash-sum": "^1.0.2",
+    "lodash": "^4.17.11",
+    "mustache": "^3.0.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
